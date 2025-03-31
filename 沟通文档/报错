@@ -1,0 +1,266 @@
+godcorn@MacBookAir Aetherflow_final % cd extension
+godcorn@MacBookAir extension % npm run build
+
+> aetherflow-extension@1.0.0 build
+> webpack --mode=production
+
+assets by status 4.77 KiB [cached] 9 assets
+./src/background/index.ts 14 bytes [built] [code generated]
+./src/content/index.ts 14 bytes [built] [code generated]
+./src/pages/sidepanel/index.tsx 14 bytes [built] [code generated]
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.test.tsx
+4:28-52
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.test.tsx(4,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.test.tsx
+5:28-52
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.test.tsx(5,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/storage/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx
+10:30-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx(10,31)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx
+14:23-52
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx(14,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx
+211:32-38
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/LibraryTab.tsx(211,33)
+      TS7006: Parameter 'prompt' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptDetailDrawer.tsx
+8:23-52
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptDetailDrawer.tsx(8,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptDetailDrawer.tsx
+9:30-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptDetailDrawer.tsx(9,31)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptFormModal.tsx
+9:30-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptFormModal.tsx(9,31)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptFormModal.tsx
+10:23-52
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/library/PromptFormModal.tsx(10,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/navigation/SettingsDrawer.tsx
+3:26-49
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/navigation/SettingsDrawer.tsx(3,27)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/useExport.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx
+8:30-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx(8,31)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx
+10:31-59
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx(10,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx
+11:36-67
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizationDetailDrawer.tsx(11,37)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimize/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx
+12:30-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx(12,31)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/AppContext.tsx' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx
+15:36-67
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx(15,37)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimize/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx
+99:40-47
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/components/optimize/OptimizeTab.tsx(99,41)
+      TS7006: Parameter 'version' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx
+2:31-50
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx(2,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/content/platformAdapter.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx
+3:34-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx(3,35)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptShortcut/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx
+4:28-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx(4,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx
+87:23-29
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx(87,24)
+      TS7006: Parameter 'prompt' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx
+87:31-36
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutComponent.tsx(87,32)
+      TS7006: Parameter 'index' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+4:32-51
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(4,33)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/content/platformAdapter.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+5:50-78
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(5,51)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/promptShortcut/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+6:53-83
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(6,54)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptShortcutUI.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+7:34-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(7,35)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptPosition.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+46:35-39
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(46,36)
+      TS7006: Parameter 'part' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+46:41-46
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(46,42)
+      TS7006: Parameter 'index' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+76:23-29
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(76,24)
+      TS7006: Parameter 'prompt' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx
+76:31-36
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/content/PromptShortcutInjector.tsx(76,32)
+      TS7006: Parameter 'index' implicitly has an 'any' type.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/ApiTest.tsx
+2:27-54
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/ApiTest.tsx(2,28)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/useApiTest.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/ApiTest.tsx
+3:38-70
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/ApiTest.tsx(3,39)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx
+7:28-60
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx(7,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx
+8:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx(8,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx
+9:28-56
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx(9,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/useOptimize.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx
+10:59-91
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/App.tsx(10,60)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/LibraryTab.tsx
+8:23-55
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/LibraryTab.tsx(8,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/LibraryTab.tsx
+10:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/LibraryTab.tsx(10,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx
+4:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx(4,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx
+5:41-73
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx(5,42)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx
+13:7-39
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationDetailDrawer.tsx(13,8)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationModeSelector.tsx
+4:38-70
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizationModeSelector.tsx(4,39)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx
+3:28-60
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx(3,29)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx
+6:59-91
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx(6,60)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx
+14:7-39
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/OptimizeSection.tsx(14,8)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/optimization/index.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptDetailDrawer.tsx
+3:23-55
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptDetailDrawer.tsx(3,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptDetailDrawer.tsx
+4:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptDetailDrawer.tsx(4,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptFormModal.tsx
+4:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptFormModal.tsx(4,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptFormModal.tsx
+5:23-55
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptFormModal.tsx(5,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptShortcut.tsx
+3:31-62
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptShortcut.tsx(3,32)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/hooks/usePromptsData.ts' is not a module.
+
+ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptShortcut.tsx
+4:23-55
+[tsl] ERROR in /Users/godcorn/trae/Aetherflow_final/extension/src/pages/sidepanel/components/PromptShortcut.tsx(4,24)
+      TS2306: File '/Users/godcorn/trae/Aetherflow_final/extension/src/services/prompt/types.ts' is not a module.
+
+50 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.98.0 compiled with 50 errors in 1926 ms
+godcorn@MacBookAir extension % 
